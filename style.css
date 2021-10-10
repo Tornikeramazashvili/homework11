@@ -1,0 +1,232 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 100%;
+}
+
+.container {
+  max-width: 1440px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+/* Header starts here */
+
+header {
+  background-color: blue;
+  display: flex;
+  justify-content: space-between;
+  padding: 30px 80px;
+}
+
+.header-content {
+  padding-bottom: 20%;
+}
+
+.navbar-ul {
+  list-style: none;
+}
+
+.navbar-li {
+  display: inline-block;
+  padding-left: 12px;
+}
+
+.navbar li a {
+  color: white;
+  text-decoration: none;
+}
+
+#contact-button a {
+  color: black;
+  font-weight: bold;
+  background-color: white;
+  padding: 18px 40px;
+  border-radius: 28px;
+}
+
+/* Header ends here */
+
+/* Section starts here */
+
+section {
+  max-width: 900px;
+  width: 100%;
+  margin: 0px auto;
+  position: relative;
+}
+
+.section-content {
+  position: absolute;
+  top: -130px;
+}
+
+section .big-rectangle-image {
+  max-width: 895px;
+  width: 100%;
+}
+
+.small-rectangle-images {
+  max-width: 170px;
+  min-height: 170px;
+  width: 100%;
+}
+
+.section-content-images {
+  display: flex;
+  justify-content: space-between;
+}
+
+.section-content-paragraph {
+  font-size: 16px;
+  line-height: 26px;
+  text-align: justify;
+}
+
+.section-content-paragraph p {
+  padding: 8px 60px;
+}
+
+.additional-information-button {
+  margin: 50px;
+  text-align: center;
+}
+
+.additional-information-button a {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  background-color: blue;
+  padding: 18px 57px;
+  border-radius: 28px;
+}
+
+/* Section ends here */
+
+/* Footer starts here */
+
+footer {
+  display: flex;
+  justify-content: space-around;
+  background-color: blue;
+  padding: 100px 15px 10px 15px;
+}
+
+/* Footer contact (left side) starts here */
+
+.footer-contact {
+  display: flex;
+  flex-direction: column;
+  color: white;
+  line-height: 26px;
+  max-width: 350px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.footer-contact h3 {
+  color: white;
+  font-size: 26px;
+}
+
+.footer-contact p {
+  padding: 30px 0px;
+}
+
+iframe {
+  box-shadow: -10px 10px #ffffff;
+  border: none;
+  margin-left: 10px;
+}
+
+.footer-contact-address {
+  /* padding: 50px 20px;
+  width: 420px; */
+  padding: 20px 0px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.footer-contact-phone,
+.footer-contact-email {
+  display: flex;
+  gap: 4px;
+  align-items: center;
+}
+
+.footer-contact .contact-phone-circle {
+  height: 40px;
+  width: 40px;
+  border-radius: 50px;
+  background-color: white;
+  background-image: url(images/phone.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 50%;
+}
+
+.footer-contact .contact-email-circle {
+  height: 40px;
+  width: 40px;
+  border-radius: 50px;
+  background-color: white;
+  background-image: url(images/email.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 50%;
+}
+
+/* Footer contact (left side) ends here and 
+registration form (right side) starts here*/
+
+.footer-registration {
+  padding: 60px 0px;
+}
+
+.input-field {
+  display: flex;
+  flex-direction: column;
+  row-gap: 10px;
+}
+
+.input-field label {
+  color: white;
+  font-weight: bold;
+}
+
+.input-field input {
+  background: none;
+  border: none;
+  outline: none;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.294);
+}
+
+textarea {
+  height: 60px;
+  background: none;
+  resize: none;
+  border: none;
+  outline: none;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.294);
+}
+
+button {
+  border: none;
+  font-weight: bold;
+  padding: 18px 40px;
+  border-radius: 28px;
+}
+
+.sent-button {
+  padding: 20px 0px 0px 180px;
+}
+
+/* Registration form (right side) ends here*/
+/* Footer ends here */
+
+/* Hidden elements for media query */
+
+.hidden-element-for-media {
+  visibility: hidden;
+}

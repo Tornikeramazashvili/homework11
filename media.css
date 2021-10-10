@@ -1,0 +1,134 @@
+/* html-shi Container ganvsazgvre rogorc max-width: 1440px, 
+danarcheni containeris kvemot rac modis, yvealferi masze bevrad pataraa. 
+shesabamisad, atvla daviwye agnishnuli zomidan > Laptop L-1440px */
+
+/* Laptop L-1440 shemdeg modis 
+Laptop - 1024px*/
+
+@media (max-width: 1024px) {
+  .navbar {
+    display: none;
+  }
+
+  .header-content {
+    border-radius: 0px 0px 40px 40px;
+  }
+
+  .header-content .logo {
+    margin: 0 auto;
+  }
+
+  .logo img {
+    width: 200px;
+    height: 200px;
+  }
+
+  .section-content .big-rectangle-image {
+    width: 900px;
+    /* display: block;
+    margin: auto; */
+    border-radius: 40px;
+  }
+
+  .section-content h2 {
+    font-size: 48px;
+    max-width: 730px;
+    width: 100%;
+  }
+
+  .section-content-images {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+  }
+
+  .small-rectangle-images {
+    max-width: 400px;
+    max-height: 300px;
+  }
+  .section-content-images img:nth-child(5) {
+    display: none;
+  }
+
+  .section-content-paragraph {
+    font-size: 26px;
+    line-height: 45px;
+  }
+
+  .section-content-paragraph p:nth-child(2),
+  p:nth-child(3),
+  p:nth-child(4) {
+    display: none;
+  }
+
+  .additional-information-button a {
+    font-size: 18px;
+    padding: 30px 270px;
+    border-radius: 40px;
+  }
+
+  footer {
+    padding: 0;
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+
+    border-radius: 40px 40px 0px 0px;
+  }
+
+  .footer-registration {
+    font-size: 20px;
+    padding: 0px;
+  }
+
+  button {
+    border: none;
+    font-weight: bold;
+    padding: 30px 200px;
+    border-radius: 40px;
+  }
+
+  .sent-button {
+    padding: 0px;
+    display: flex;
+    justify-content: center;
+  }
+
+  .footer-contact h3 {
+    display: none;
+  }
+
+  .hidden-element-for-media {
+    visibility: visible;
+    font-size: 32px;
+    font-weight: bold;
+    color: white;
+    /* padding-bottom: 40px; */
+    padding: 10px 0px 80px 0px;
+  }
+
+  .footer-registration {
+    padding: 50px 0px;
+  }
+
+  .footer-contact p,
+  h3 {
+    display: none;
+  }
+
+  .footer-contact {
+    max-width: 520px;
+  }
+
+  .footer-contact iframe {
+    width: 500px;
+    height: 300px;
+  }
+
+  iframe {
+    width: 300px;
+    border-radius: 15px;
+    border: none;
+    box-shadow: none;
+  }
+}
